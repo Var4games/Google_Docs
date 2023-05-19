@@ -12,7 +12,7 @@ const App = () => {
       {/* <NavBar />
       <Sidebar />
       <div><HomePage></HomePage></div> */}
-      <EditorPage></EditorPage>
+      
       <Doc></Doc>
     </div>
   );
