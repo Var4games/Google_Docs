@@ -1,5 +1,6 @@
 import React from "react";
 import EditorPage from "./pages/EditorPage";
+import Doc from "./pages/doc";
 // import NavBar from "./components/NavBar";
 // import Sidebar from "./components/Sidebar";
 // import "./App.css";
@@ -12,6 +13,7 @@ const App = () => {
       <Sidebar />
       <div><HomePage></HomePage></div> */}
       <EditorPage></EditorPage>
+      <Doc></Doc>
     </div>
   );
 };
