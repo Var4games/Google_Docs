@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Google_Docs/static/css/main.baa01215.css",
-    "main.js": "/Google_Docs/static/js/main.6963ab63.js",
+    "main.js": "/Google_Docs/static/js/main.d3475d4b.js",
     "index.html": "/Google_Docs/index.html",
     "main.baa01215.css.map": "/Google_Docs/static/css/main.baa01215.css.map",
-    "main.6963ab63.js.map": "/Google_Docs/static/js/main.6963ab63.js.map"
+    "main.d3475d4b.js.map": "/Google_Docs/static/js/main.d3475d4b.js.map"
   },
   "entrypoints": [
     "static/css/main.baa01215.css",
-    "static/js/main.6963ab63.js"
+    "static/js/main.d3475d4b.js"
   ]
 }
