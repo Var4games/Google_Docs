@@ -97,42 +97,40 @@ const EditorPage = () => {
         backgroundColor: "#EAEAEA"
       }}
     >
-      <span>
-        <Card style={{ width: "80%", maxWidth: "800px", borderRadius: "25px" }}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "left",
-              marginBottom: "10px"
-            }}
-          >
-            {toolbarIcons.map((item) => (
-              <Tooltip title={item.tooltip} key={item.tooltip}>
-                <button className="toolbar-button" onClick={item.onClick}>
-                  {item.icon}
-                </button>
-              </Tooltip>
-            ))}
-          </div>
-        </Card>
-      </span>
-      <div
-        style={{
-          width: "400%",
-          maxWidth: "80px",
-          alignItems: "center",
-          backgroundColor: "#FFFFFF",
-          padding: "20px",
-          borderRadius: "5px",
-          minHeight: "90px"
-        }}
-      >
-        <Editor
-          editorState={editorState}
-          onChange={handleEditorChange}
-          ref={editorRef}
-        />
-      </div>
+      <Card style={{ width: "80%", maxWidth: "800px", borderRadius: "25px" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "left",
+            marginBottom: "10px"
+          }}
+        >
+          {toolbarIcons.map((item) => (
+            <Tooltip title={item.tooltip} key={item.tooltip}>
+              <button className="toolbar-button" onClick={item.onClick}>
+                {item.icon}
+              </button>
+            </Tooltip>
+          ))}
+        </div>
+        <div
+          style={{
+            width: "400%",
+            maxWidth: "80px",
+            alignItems: "center",
+            backgroundColor: "#FFFFFF",
+            padding: "20px",
+            borderRadius: "5px",
+            minHeight: "90px"
+          }}
+        >
+          <Editor
+            editorState={editorState}
+            onChange={handleEditorChange}
+            ref={editorRef}
+          />
+        </div>
+      </Card>
     </div>
   );
 };
